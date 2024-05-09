@@ -29,9 +29,15 @@
         <Label Margin="466,465,770,95" Content="Time" Grid.Column="1"/>
         <Label Margin="520,465,684,95" Content="Coefficient" Grid.Column="1"/>
         <Label Margin="606,465,618,95" Content="Money" Grid.Column="1"/>
-        <Button Grid.Column="1" Content="Start" HorizontalAlignment="Left" Height="47" Margin="691,405,0,0" VerticalAlignment="Top" Width="109"/>
+        <Button Grid.Column="1" Content="Start" HorizontalAlignment="Left" Height="47" Margin="691,405,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click"/>
         <ComboBox Grid.Column="1" Margin="639,405,608,132"/>
         <Button Grid.Column="1" Content="Start" HorizontalAlignment="Left" Height="47" Margin="805,405,0,0" VerticalAlignment="Top" Width="47"/>
+        <Image Height="100" Width="100" Grid.Column="1" Margin="288,135,902,349"/>
+        <Image x:Name="horse_1" Height="100" Width="100" Grid.Column="1" Margin="288,110,902,370" Source="/WithOutBorder_0000.png"/>
+        <Image x:Name="horse_2" Height="100" Width="100" Grid.Column="1" Margin="288,180,902,304" Source="/WithOutBorder_0000.png" RenderTransformOrigin="0.59,-0.108"/>
+        <Image x:Name="horse_3" Height="100" Width="100" Grid.Column="1" Margin="288,250,902,242" Source="/WithOutBorder_0000.png"/>
+        <Image x:Name="horse_4" Height="100" Width="100" Grid.Column="1" Margin="288,320,902,195" Source="/WithOutBorder_0000.png"/>
+        <Image x:Name="horse_5" Height="100" Width="100" Grid.Column="1" Margin="288,390,902,130" Source="/WithOutBorder_0000.png"/>
 
     </Grid>
 </Window>
