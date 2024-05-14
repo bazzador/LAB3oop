@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Xml.Schema;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace LAB3oop
+namespace LAB3oop 
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
